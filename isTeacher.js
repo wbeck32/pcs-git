@@ -1,20 +1,39 @@
 //isTeacher.js
 
 var areTheyTeachers = {
-	true: "Dan",
-	true: "Andrew",
-	false: "Larry",
-	false: "Hamster Man"
+	Dan: true,
+	Andrew: true,
+	Larry: false,
+	"Hamster Man": false
+};
+
+for(var names in areTheyTeachers) {
+	teacherQ();
+	ifTeacher();
+	oneLine();
+	console.log();
 }
 
-	for(var names in areTheyTeachers) {
-		console.log(areTheyTeachers[names]+" "+names);
+
+
+//Example 1
+function teacherQ(){
+	if (areTheyTeachers[names] === true){
+		console.log(names+" "+areTheyTeachers[names]);
 	}
+}
 
+//Example 2
+function ifTeacher() {
+if(names === "Dan" || names === "Andrew") {
+	console.log(names+" is a teacher!");
+	return true;
+} else {
+	return false;
+	}
+}
 
-
-function isTeacher(tName) {
-	console.log(tName);
-
-
-} 
+//Example 3
+function oneLine() {
+	return ifTeacher(areTheyTeachers[names]);
+}
