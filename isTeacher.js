@@ -8,12 +8,14 @@ var areTheyTeachers = {
 };
 
 for(var names in areTheyTeachers) {
+	console.log();
 	teacherQ();
 	ifTeacher();
 	oneLine();
-	console.log();
-}
+	oneLineV2();
+	console.log(oneLineV2());
 
+}
 
 
 //Example 1
@@ -35,5 +37,10 @@ if(names === "Dan" || names === "Andrew") {
 
 //Example 3
 function oneLine() {
-	return ifTeacher(areTheyTeachers[names]);
+	return areTheyTeachers[names] === true ? console.log(names+': yep!') : console.log(names+': nope!');
 }
+
+function oneLineV2() {
+	return names === "Dan" || names === "Andrew";
+}
+
