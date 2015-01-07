@@ -1,9 +1,6 @@
 //challenges.js
 
-//console.log(sum(2,4));
-//console.log(subtract(5,7));
-//console.log(introduce('Joe','Jane','the circus'));
-//console.log(difference(5,7));
+//Using prompt: https://github.com/flatiron/prompt
 
 var prompt = require('prompt');
 
@@ -14,11 +11,7 @@ var properties = [
 }
 ]
 
-
-
 prompt.start();
-
-
 
 prompt.get(properties, function(err, result){
 	if (err) { return onErr(err); }
