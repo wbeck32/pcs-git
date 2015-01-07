@@ -1,1 +1,0 @@
-This is my new improved adam file.  I like romantic dinners and long walks on the beach.

@@ -7,29 +7,10 @@ off of this and absolutely should not use it in production.
 
 ## JavaScript Immersion Members
 
-Leslie Strauss
-
-Austin Trafficante
-
-Samuel Averett
-
-Carlo De Gregorio
-
-Adam Horak
-
-Tian Song
-
-Grant Stampfli
-
-Josh Tucker (j.allentucker@gmail.com)
-
-Dmitry White
-
-Andrea Moulding
 
 ### Instructor
 
-Whitney Young  
-whitney@portlandcodeschool.com
+Andrew Lorente
+alorente@portlandcodeschool.com
 
 >>>>>>> jsi/master
